@@ -37,7 +37,7 @@ import {
   LuSend,
   LuPencil,
   LuClock,
-  LuLoader2,
+  LuLoaderCircle,
   LuX,
   LuCircleCheck,
   LuCircleAlert,
@@ -1072,7 +1072,7 @@ export default function Page() {
                       >
                         {isGenerating ? (
                           <span className="flex items-center gap-2">
-                            <LuLoader2 className="w-4 h-4 animate-spin" />
+                            <LuLoaderCircle className="w-4 h-4 animate-spin" />
                             Generating content... (this may take 15-30 seconds)
                           </span>
                         ) : (
@@ -1200,7 +1200,7 @@ export default function Page() {
                               >
                                 {isScheduling ? (
                                   <span className="flex items-center gap-2">
-                                    <LuLoader2 className="w-4 h-4 animate-spin" />
+                                    <LuLoaderCircle className="w-4 h-4 animate-spin" />
                                     Scheduling...
                                   </span>
                                 ) : (
