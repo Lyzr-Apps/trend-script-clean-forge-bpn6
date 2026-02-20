@@ -1,0 +1,21 @@
+{
+  "agent_name": "Trend Research Agent",
+  "agent_id": "699878cbc32baa328efdb3a4",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "trends": [
+      {
+        "topic": "string",
+        "description": "string",
+        "hashtags": ["string"],
+        "platforms": ["string"],
+        "content_angles": ["string"],
+        "relevance_score": "string"
+      }
+    ],
+    "summary": "string",
+    "niche": "string"
+  }
+}

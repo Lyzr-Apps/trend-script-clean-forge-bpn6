@@ -1,0 +1,20 @@
+{
+  "agent_name": "Post Scheduler Agent",
+  "agent_id": "69987900ad9589c32de456d2",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "posting_results": [
+      {
+        "platform": "string",
+        "status": "string",
+        "message": "string",
+        "post_url": "string"
+      }
+    ],
+    "summary": "string",
+    "total_posted": "number",
+    "total_ready": "number"
+  }
+}

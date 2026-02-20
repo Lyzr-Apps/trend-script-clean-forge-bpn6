@@ -1,0 +1,61 @@
+{
+  "agent_name": "Content Pipeline Manager",
+  "agent_id": "699878ee97f966a0d9ca80c4",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "trend_summary": {
+      "trends": [
+        {
+          "topic": "string",
+          "description": "string",
+          "hashtags": ["string"],
+          "platforms": ["string"],
+          "content_angles": ["string"]
+        }
+      ],
+      "summary": "string"
+    },
+    "scripts": {
+      "twitter": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      },
+      "linkedin": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      },
+      "instagram": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      },
+      "tiktok": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      },
+      "youtube": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      },
+      "facebook": {
+        "content": "string",
+        "character_count": "number",
+        "hashtags": ["string"],
+        "format": "string"
+      }
+    },
+    "platforms_requested": ["string"],
+    "generation_status": "string"
+  }
+}

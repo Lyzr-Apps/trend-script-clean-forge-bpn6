@@ -1,0 +1,20 @@
+{
+  "agents": {
+    "content_pipeline_manager": {
+      "agent_id": "699878ee97f966a0d9ca80c4",
+      "type": "manager"
+    },
+    "trend_research_agent": {
+      "agent_id": "699878cbc32baa328efdb3a4",
+      "type": "sub-agent"
+    },
+    "script_writer_agent": {
+      "agent_id": "699878cbbc8dca6f8c9ebb72",
+      "type": "sub-agent"
+    },
+    "post_scheduler_agent": {
+      "agent_id": "69987900ad9589c32de456d2",
+      "type": "independent"
+    }
+  }
+}

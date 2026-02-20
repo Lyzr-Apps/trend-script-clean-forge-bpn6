@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "input_node", "type": "Input", "label": "User Query", "nodeCategory": "input"},
+    {"id": "content_pipeline_manager", "type": "Agent", "label": "Content Pipeline Manager", "nodeCategory": "agent"},
+    {"id": "trend_research_agent", "type": "Agent", "label": "Trend Research Agent", "nodeCategory": "agent"},
+    {"id": "script_writer_agent", "type": "Agent", "label": "Script Writer Agent", "nodeCategory": "agent"},
+    {"id": "post_scheduler_agent", "type": "Agent", "label": "Post Scheduler Agent", "nodeCategory": "agent"},
+    {"id": "output_node", "type": "Output", "label": "Output", "nodeCategory": "end"}
+  ],
+  "edges": [
+    {"source": "input_node", "target": "content_pipeline_manager"},
+    {"source": "content_pipeline_manager", "target": "trend_research_agent"},
+    {"source": "content_pipeline_manager", "target": "script_writer_agent"},
+    {"source": "content_pipeline_manager", "target": "post_scheduler_agent"},
+    {"source": "post_scheduler_agent", "target": "output_node"}
+  ]
+}

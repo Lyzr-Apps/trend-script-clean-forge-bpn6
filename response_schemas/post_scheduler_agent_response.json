@@ -1,0 +1,34 @@
+{
+  "agent_name": "Post Scheduler Agent",
+  "agent_id": "69987900ad9589c32de456d2",
+  "description": "Takes user-approved scripts and posts them to Twitter/X; for other platforms outputs formatted content ready for manual posting or custom integration.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "posting_results": [
+      {
+        "platform": "string",
+        "status": "string",
+        "message": "string",
+        "post_url": "string"
+      }
+    ],
+    "summary": "string",
+    "total_posted": "number",
+    "total_ready": "number"
+  },
+  "example_response": {
+    "posting_results": [
+      {
+        "platform": "sample string",
+        "status": "sample string",
+        "message": "sample string",
+        "post_url": "sample string"
+      }
+    ],
+    "summary": "sample string",
+    "total_posted": 0,
+    "total_ready": 0
+  }
+}
